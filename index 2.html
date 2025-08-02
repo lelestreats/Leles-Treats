@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lele's Treats</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Great Vibes', cursive;
+      background-color: #f8f6f9;
+      color: #4a3b4e;
+    }
+    header {
+      background-color: #e8d6f4;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      color: #4a3b4e;
+    }
+    header img.logo {
+      max-width: 180px;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #f0e2f5;
+      padding: 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #4a3b4e;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .home {
+      text-align: center;
+    }
+    .products img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      margin: 15px;
+    }
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+    }
+    .contact input,
+    .contact textarea {
+      padding: 10px;
+      margin: 10px 0;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+    .contact button {
+      background-color: #d2a8e3;
+      border: none;
+      padding: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #e8d6f4;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo.jpeg" alt="Lele's Treats Logo" class="logo">
+    Lele's Treats
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" class="section home">
+    <h2>Welcome to Lele's Treats</h2>
+    <p>Elegant, cozy baked goods with a vintage flair. Made with love to warm your heart and your taste buds.</p>
+  </section>
+
+  <section id="products" class="section products">
+    <h2>Our Baked Goods</h2>
+    <div class="product-grid">
+      <img src="IMG_6597.jpeg" alt="Product 1">
+      <img src="IMG_5672.jpeg" alt="Product 2">
+      <img src="IMG_4385.jpeg" alt="Product 3">
+      <img src="IMG_3518.jpeg" alt="Product 4">
+      <img src="IMG_3394.jpeg" alt="Product 5">
+      <img src="DD93C215-9D4C-4D67-B8DC-3E317A66170D.jpeg" alt="Product 6">
+      <img src="DB20575C-BAC3-463E-AEF3-219F3C633ABB.jpeg" alt="Product 7">
+      <img src="D1919FCD-B695-4AF2-80A3-8202013EC021.jpeg" alt="Product 8">
+      <img src="CFC69529-258C-4213-921F-373D98B6BC9D.jpeg" alt="Product 9">
+      <img src="C127C60F-EBC9-4399-8BDE-2E54297EBD42.jpeg" alt="Product 10">
+      <img src="9688AE4E-830D-4AEB-9516-4238D06C6DE8.jpeg" alt="Product 11">
+      <img src="6744ED2B-08A0-46B6-A448-2DF13751A88C.jpeg" alt="Product 12">
+      <img src="6522B95B-18C9-41CC-9B71-F9D029185F4A.jpeg" alt="Product 13">
+      <img src="5437D6E9-5024-4A81-805A-895097A99DF4.jpeg" alt="Product 14">
+      <img src="3EB0CEAC-3C5C-4EEF-928B-7CC00F873A06.jpeg" alt="Product 15">
+      <img src="3220EE49-56DF-4523-A1E8-06AB87C12971.jpeg" alt="Product 16">
+    </div>
+  </section>
+
+  <section id="shop" class="section shop">
+    <h2>Shop Coming Soon</h2>
+    <p>Online ordering is baking... stay tuned!</p>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Lele's Treats. All rights reserved.
+  </footer>
+</body>
+</html>
